@@ -4,6 +4,9 @@ import { Calendar, ChevronLeft, Quote, Info } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
+// Add this line to specify the Edge Runtime
+export const runtime = "edge"
+
 // This would typically be fetched from a database or CMS
 const getNewsItem = (id: string) => {
   const newsItems = [
